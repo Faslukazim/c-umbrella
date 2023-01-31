@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:ital,wght@1,700&display=swap");
+
+.main {
+  margin: auto;
+  margin-top: 7%;
+  height: 70vh;
+  width: 60vw;
+  background-color: rgb(237, 243, 244);
+  display: flex;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  transition: all 0.3s ease;
+}
+.left {
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  padding-top: 130px;
+}
+.right {
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  padding-top: 130px;
+}
+.logodiv{
+  width: 120px;
+  height: 80px;
+  /* background: black; */
+  margin-top: -181px;
+  margin-left: 250px;
+}
+.logo {
+  width: 79px;
+  padding-top: 15%;
+  padding-left: 19%;
+  z-index: 1;
+
+  z-index: 1;
+}
+.Umbrella {
+  height: 365px;
+  margin-left: 100px;
+  transition: all 0.3s ease;
+}
+.leftloader {
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  margin-top: 210px;
+  margin-left: 60px;
+}
+.loader {
+  height: 170px;
+}
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Umbrella-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.swatch-picker {
+  border: none;
+  width: auto;
+}
+label {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 3px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+}
+
+input:checked + span {
+  border: 2px solid rgba(104, 93, 93, 0.697);
+  border: 2px solid rgba(99, 93, 93, 0.6);
+}
+.uploadbtn {
+  width: 315px;
+  color: white;
+  padding: 24px;
+  position: relative;
+  border: none;
+  text-align: center;
+  background-color: rgb(48 179 229);
+}
+.uploadicon {
+  position: absolute;
+  margin-top: -3.9%;
+  margin-left: -45.5%;
+}
+.uploadtext {
+  position: absolute;
+  margin-top: -2.9%;
+  margin-left: 25%;
+  font-size: medium;
+  font-weight: bolder;
+  color: white;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  /* margin-left: 6%; */
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+@media screen and (max-width: 1420px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 50px;
+    width: 90%;
+    background-color: rgb(237, 243, 244);
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.3s ease;
+  }
+  .Umbrella {
+    height: 300px;
+    margin-left: 32px;
+    transition: all 0.3s ease;
+    margin-top: -50px;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    padding-top: 0px;
+  }
+  .logodiv{
+    width: 120px;
+    height: 80px;
+    /* background: black; */
+    margin-top: -151px;
+    margin-left: 145px;
+  }
+  .logo {
+    padding-top: 16%;
+    padding-left: 23%;
+    width: 71px;
+  }
+  .leftloader {
+    margin-top: 200px;
+  }
+  .loader {
+    height: 90px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Umbrella {
+    height: 216px;
+    margin-left: 38px;
+    transition: all 0.3s ease;
+    margin-top: -50px;
+  }
+  .right {
+    padding-top: 0px;
+  }
+  .logodiv{
+    width: 88px;
+    height: 60px;
+    /* background: rgba(243, 240, 240, 0); */
+    margin-top: -165px;
+    margin-left: 118px;
+  }
+  .logo {
+    padding-top: 19%;
+    padding-left: 23%;
+    width: 50px;
+  }
+  .mainh1 {
+    font-size: large;
+  }
+  .mainh2 {
+    font-size: small;
+  }
+  .leftloader {
+    margin-left: 90px;
+  }
+  .loader {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Umbrella {
+    height: 167px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    margin-top: -83px;
+  }
+  .right {
+    margin-top: -206px;
+  }
+  .logodiv{
+    width: 68px;
+    height: 40px;
+    /* background: rgba(0, 0, 0, 0.805); */
+    margin-top: -187px;
+    margin-left: 73px;
+  }
+  .logo {
+    padding-top: 12%;
+    padding-left: 20%;
+    width: 40px;
+  }
+  .mainh1 {
+    font-size: large;
+  }
+  .mainh2 {
+    font-size: small;
+  }
+  .leftloader {
+    margin-top: 110px;
+    margin-left: 90px;
+  }
+  .loader {
+    height: 40px;
+  }
+}
