@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/c-umbrella/static/css/main.0dcf0b65.css",
+    "main.js": "/c-umbrella/static/js/main.7286e7e0.js",
+    "index.html": "/c-umbrella/index.html",
+    "main.0dcf0b65.css.map": "/c-umbrella/static/css/main.0dcf0b65.css.map",
+    "main.7286e7e0.js.map": "/c-umbrella/static/js/main.7286e7e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dcf0b65.css",
+    "static/js/main.7286e7e0.js"
+  ]
+}
