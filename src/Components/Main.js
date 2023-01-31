@@ -55,7 +55,7 @@ function Main() {
                   ? "Umbrella-spin infinite 20s linear"
                   : "none",
               }}
-              src={"/images/blueumbrella.png"}
+              src={"/public/images/blueumbrella.png"}
               alt=""
             />
             {/* display logo */}
